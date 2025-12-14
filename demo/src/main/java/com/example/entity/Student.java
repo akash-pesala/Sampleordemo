@@ -14,8 +14,6 @@ import lombok.NoArgsConstructor;
 public class Student {
 	@Id
 	private String id;
-//	MongoDB does NOT auto-generate numeric IDs (like Long) the way SQL databases do.
-//	Let MongoDB auto-generate ID using String or ObjectId
 	private String name;
 	
 }
